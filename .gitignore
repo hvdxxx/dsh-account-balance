@@ -1,0 +1,8 @@
+# Local reference copies and throwaway previews stay out of the repository.
+node_modules/
+ref/
+preview/
+tools/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Account balance">
+  <defs>
+    <linearGradient id="dsh-balance-badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d6bfe"/>
+      <stop offset="1" stop-color="#7c4dff"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="url(#dsh-balance-badge)"/>
+  <path d="M10 13.2h13.4a2.4 2.4 0 0 1 2.4 2.4v6.8a2.4 2.4 0 0 1-2.4 2.4H10a2.4 2.4 0 0 1-2.4-2.4v-6.8a2.4 2.4 0 0 1 2.4-2.4Z" fill="#ffffff" opacity="0.94"/>
+  <path d="M10.6 13.2v-1.7a2.6 2.6 0 0 1 3.1-2.55l7.6 1.45a1.5 1.5 0 0 1 1.21 1.48v1.32" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" opacity="0.66"/>
+  <circle cx="21.4" cy="19" r="2.15" fill="#4d6bfe"/>
+</svg>

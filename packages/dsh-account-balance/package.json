@@ -1,0 +1,53 @@
+{
+  "name": "dsh-account-balance",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Shows the DeepSeek account balance above the account row in the sidebar",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "lib/client.js",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "license": "MIT",
+  "author": "Afanasy (https://github.com/hvdxxx)",
+  "homepage": "https://github.com/hvdxxx/dsh-account-balance#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvdxxx/dsh-account-balance.git",
+    "directory": "packages/dsh-account-balance"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "balance",
+    "account",
+    "sidebar"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings-account"
+      ]
+    }
+  }
+}

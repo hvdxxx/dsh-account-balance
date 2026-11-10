@@ -1,0 +1,7 @@
+# Bundle layer for dsh-account-balance.
+#
+# The bundle mounts its own row; the plugin's Client half draws the balance
+# line in the sidebar foot, directly above the account/settings row.
+- insert:
+    - id: account-balance
+      name: dsh-account-balance
